@@ -48,3 +48,24 @@ Make sure you have the following installed:
     ```bash
     pip install -r requirements.txt
     ```
+## Usage
+To run the web crawler, execute the following command:
+
+```bash
+python crawler.py --parameters parameters.json
+```
+## Parameters
+Provide the input parameters in a JSON object format. Here's an example:
+
+```json
+{
+  "primary_category": "Medical Journal",
+  "secondary_category": "Orthopedic",
+  "geography": "India",
+  "date_range": "2022"
+}
+```
+Adjust the parameters according to your specific requirements.
+
+## Output
+The crawler will generate a CSV file containing the extracted URLs. Additional relevant data may be included in the output as deemed appropriate.
