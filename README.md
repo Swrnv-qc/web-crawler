@@ -13,9 +13,6 @@ This repository contains a Python-based web crawler designed to extract URLs bas
 - [Usage](#usage)
 - [Parameters](#parameters)
 - [Output](#output)
-- [Technology Stack](#technology-stack)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
